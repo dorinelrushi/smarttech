@@ -2,20 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fbf8f3;
+}
+
+ul li:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.box1 {
+  background-image: linear-gradient(
+    to right bottom,
+    #f9c4c9,
+    #f8d3e0,
+    #f6e2f0,
+    #f8f1fa00,
+    #ffffff00
+  );
+}
+
+.ph1 {
+  background: url("./../../public/person1.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+.ph2 {
+  background: url("./../../public/person2.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+.ph3 {
+  background: url("./../../public/person3.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.womangirl {
+  background: url("./../../public/womangirl.webp");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+
+.project1 {
+  background: url("./../../public/pr1.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+
+.project2 {
+  background: url("./../../public/pr1.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+.project3 {
+  background: url("./../../public/pr2.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+.project4 {
+  background: url("./../../public/prj4.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .socialsphone {
+    width: 53%;
+    top: 10px;
+    margin-top: 50px;
+    left: -50px;
+  }
+  .woman {
+    position: absolute;
+    left: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .socialsphone {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    position: initial;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
 }
