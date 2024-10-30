@@ -28,9 +28,9 @@ function Contact() {
               assistance do not hesitate to contact us below
             </p>
             <div className="flex flex-col text-[17px] gap-[20px] mb-[33px]">
-              <Link href="/">company@gmail.com</Link>
-              <Link href="/">+355 69 851 7888</Link>
-              <Link href="/">Street name, Greece 7456</Link>
+              <Link href="/">mariacico@gmail.com</Link>
+              <Link href="/">+30 69 3857 8519</Link>
+              <Link href="/"> Greece </Link>
             </div>
             <div className="socialmedia flex text-[25px] gap-[25px]">
               <FaInstagram />

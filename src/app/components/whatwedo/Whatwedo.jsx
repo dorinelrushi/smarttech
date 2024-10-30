@@ -19,7 +19,7 @@ function Whatwedo() {
           <div className="box1 flex-[0.9] p-[38px] rounded-[31px] relative overflow-hidden ">
             <div className="flex flex-col gap-[25px]">
               <Image src={"/like.svg"} width={63} height={63} alt="de" />
-              <h2 className="font-bold text-[20px]">What We Do?</h2>
+              <h2 className="font-bold text-[20px]">{translations.whatwe}</h2>
               <p className="max-w-[200px] text-[18px] text-[#4A4A4A]">
                 Empowering businesses with smart, innovative solutions.
               </p>
@@ -67,10 +67,10 @@ function Whatwedo() {
           </div>
           <div className="box3 flex  flex-[1.1] flex-col justify-end">
             <div className="bg-[white] gap-[20px] justify-between p-[19px] rounded-[31px] flex  flex-col lg:flex-row shadow-2xl shadow-[#0000000c] ">
-              <div className="womangirl w-[200]  rounded-[15px] "></div>
+              <div className="womangirl w-[100%] lg:w-[200px] h-[100%]  rounded-[15px] "></div>
               <div>
                 <h2 className="text-[28px] max-w-[250px] leading-[35px] mb-[25px] ">
-                  We help your brand to grow on social media.{" "}
+                  Helping Kids Understand and Support People with Disabilities{" "}
                 </h2>
                 <Link href={"/"}>Learn More</Link>
               </div>
