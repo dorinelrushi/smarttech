@@ -67,7 +67,7 @@ function Whatwedo() {
           </div>
           <div className="box3 flex  flex-[1.1] flex-col justify-end">
             <div className="bg-[white] gap-[20px] justify-between p-[19px] rounded-[31px] flex  flex-col lg:flex-row shadow-2xl shadow-[#0000000c] ">
-              <div className="womangirl w-[200] rounded-[15px] "></div>
+              <div className="womangirl w-[200]  rounded-[15px] "></div>
               <div>
                 <h2 className="text-[28px] max-w-[250px] leading-[35px] mb-[25px] ">
                   We help your brand to grow on social media.{" "}

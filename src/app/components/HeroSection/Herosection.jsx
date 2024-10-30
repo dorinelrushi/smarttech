@@ -13,7 +13,7 @@ function HeroSection() {
     <div>
       <div className="flex flex-col lg:flex-row w-[85%] lg:w-[67%] justify-between m-auto items-center gap-[65px]">
         <div className="leftHeroSection">
-          <h1 className=" text-[40px]  lg:text-[70px]  text-[#3F4343] font-extrabold leading-[50px] lg:leading-[80px] mb-[40px]">
+          <h1 className=" text-[40px]  mt-[25px] lg:mt-[0px] lg:text-[70px]  text-[#3F4343] font-extrabold leading-[50px] lg:leading-[80px] mb-[40px]">
             Creative<span className="text-[#C0439A]"> Pro </span> <br />
             Social Manager
           </h1>
@@ -37,7 +37,7 @@ function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="rightHeroSection">
+        <div className="rightHeroSection mt-[-40px] lg:mt-[0px]">
           <Image
             src={social}
             placeholder="empty" // "empty" | "blur" | "data:image/..."

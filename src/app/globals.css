@@ -47,12 +47,15 @@ ul li:hover {
   background-size: cover;
   object-fit: cover;
   background-position: 50% 50%;
+  width: 200px;
+  height: 100%;
 }
 
 .project1 {
   background: url("./../../public/pr1.jpg");
   background-size: cover;
   object-fit: cover;
+  height: 400px;
   background-position: 50% 50%;
 }
 
@@ -60,18 +63,21 @@ ul li:hover {
   background: url("./../../public/pr1.jpg");
   background-size: cover;
   object-fit: cover;
+  height: 400px;
   background-position: 50% 50%;
 }
 .project3 {
   background: url("./../../public/pr2.jpg");
   background-size: cover;
   object-fit: cover;
+  height: 400px;
   background-position: 50% 50%;
 }
 .project4 {
   background: url("./../../public/prj4.jpg");
   background-size: cover;
   object-fit: cover;
+  height: 400px;
   background-position: 50% 50%;
 }
 
