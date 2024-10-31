@@ -35,9 +35,17 @@ function Contact() {
               <Link href="/"> Greece </Link>
             </div>
             <div className="socialmedia flex text-[25px] gap-[25px]">
-              <FaInstagram />
-              <FaFacebook />
-              <FaLinkedin />
+              <Link href={"https://www.instagram.com/smartech.24"}>
+                <FaInstagram />
+              </Link>
+              <Link
+                href={"https://www.facebook.com/profile.php?id=61558303948194"}
+              >
+                <FaFacebook />
+              </Link>
+              <Link href={""}>
+                <FaLinkedin />
+              </Link>
             </div>
           </div>
         </div>
