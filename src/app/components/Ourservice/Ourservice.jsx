@@ -1,7 +1,10 @@
+"use client";
+import { useTranslation } from "@/app/translations/provider";
 import Image from "next/image";
 import React from "react";
 
 function Ourservice() {
+  const { translations } = useTranslation();
   return (
     <div>
       <div className="w-[90%] lg:w-[57%] m-auto mt-[50px] lg:mt-[100px] mb-[40px]">
@@ -9,7 +12,7 @@ function Ourservice() {
           className="text-center text-[40px]  lg:text-[80px] font-extrabold  text-[#3F4343] "
           id="services"
         >
-          Our Services
+          {translations.service}
         </h2>
 
         <div className="flexboxis mt-[27px] lg:mt-[70px]">
@@ -21,10 +24,9 @@ function Ourservice() {
                 height={100}
                 alt="grahic"
               />
-              <h2 className="text-[30px]">Graphic Design </h2>
+              <h2 className="text-[30px]">{translations.graphicDesign} </h2>
               <p className="text-[17px] text-[#7D7D7D] max-w-[560px]">
-                With an average turnaround time of 21 days, we’ll help you tell
-                beautiful and inspiring stories from concept to completion.
+                {translations.graphicDesignpara}
               </p>
             </div>
             <div className="Social  flex flex-col gap-[25px] border-[1px] border-[#FFE1AF] bg-[white] p-[50px] rounded-[31px]">
@@ -34,10 +36,9 @@ function Ourservice() {
                 height={100}
                 alt="grahic"
               />
-              <h2 className="text-[30px]">Social Media  </h2>
+              <h2 className="text-[30px]">{translations.socialMedia} </h2>
               <p className="text-[17px] text-[#7D7D7D] max-w-[560px]">
-                Our team of experienced Social Media Managers will transform you
-                social media into one of your most powerful marketing assets
+                {translations.socialmediapara}
               </p>
             </div>
           </div>
@@ -51,19 +52,16 @@ function Ourservice() {
                 height={100}
                 alt="grahic"
               />
-              <h2 className="text-[30px]">Content Writing </h2>
+              <h2 className="text-[30px]">{translations.content}</h2>
               <p className="text-[17px] text-[#7D7D7D] max-w-[560px]">
-                Writing is how you tell your story and at Paeon we make the
-                words work for you! Let your tale be told by people who live for
-                the written word.
+                {translations.contentpara}
               </p>
             </div>
             <div className="Social  flex flex-col gap-[25px] border-[1px] border-[#FFE1AF] bg-[white] p-[50px] rounded-[31px]">
               <Image src={"/video.svg"} width={80} height={100} alt="grahic" />
-              <h2 className="text-[30px]">Video Production </h2>
+              <h2 className="text-[30px]">{translations.video} </h2>
               <p className="text-[17px] text-[#7D7D7D] max-w-[560px]">
-                With an average turnaround time of 21 days, we’ll help you tell
-                beautiful and inspiring stories from concept to completion.
+                {translations.videopara}
               </p>
             </div>
           </div>

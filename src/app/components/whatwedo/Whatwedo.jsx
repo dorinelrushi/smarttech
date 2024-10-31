@@ -21,10 +21,10 @@ function Whatwedo() {
               <Image src={"/like.svg"} width={63} height={63} alt="de" />
               <h2 className="font-bold text-[20px]">{translations.whatwe}</h2>
               <p className="max-w-[200px] text-[18px] text-[#4A4A4A]">
-                Empowering businesses with smart, innovative solutions.
+                {translations.empower}
               </p>
               <Link className="" href={"/"}>
-                Learn More
+                {translations.learn}
               </Link>
               <Image
                 src={"/woman.png"}
@@ -48,7 +48,7 @@ function Whatwedo() {
               <h2 className="text-[50px] font-bold text-[white] mb-[-8px]">
                 25k+
               </h2>
-              <p className="text-[white]">Trusted Active Clients</p>
+              <p className="text-[white]">{translations.trust}</p>
             </div>
             <div className="p-[30px] bg-[#AE9FA6] rounded-[31px]">
               <div className="flex text-[13px] lg:text-[15px] items-center text-[white] mb-[15px] justify-end gap-[10px]">
@@ -57,22 +57,22 @@ function Whatwedo() {
                 <FaStar />
                 <FaStar />
                 <FaStar />
-                <p>(4.5 rating)</p>
+                <p>({translations.rating})</p>
               </div>
               <h2 className="font-bold text-[50px] text-[white] mb-[-8px]">
                 8M+{" "}
               </h2>
-              <p className="text-white clear-start ">Happy Customers</p>
+              <p className="text-white clear-start ">{translations.happy}</p>
             </div>
           </div>
           <div className="box3 flex  flex-[1.1] flex-col justify-end">
             <div className="bg-[white] gap-[20px] justify-between p-[19px] rounded-[31px] flex  flex-col lg:flex-row shadow-2xl shadow-[#0000000c] ">
-              <div className="womangirl w-[100%] lg:w-[200px] h-[100%]  rounded-[15px] "></div>
+              <div className="womangirl   lg:h-[100%] lg:w-[200px] rounded-[15px] "></div>
               <div>
-                <h2 className="text-[28px] max-w-[250px] leading-[35px] mb-[25px] ">
-                  Helping Kids Understand and Support People with Disabilities{" "}
+                <h2 className="text-[28px] max-w-[1000px]  lg:max-w-[250px] leading-[35px] mb-[25px] ">
+                  {translations.children}
                 </h2>
-                <Link href={"/"}>Learn More</Link>
+                <Link href={"/"}>{translations.learn}</Link>
               </div>
             </div>
           </div>
