@@ -30,8 +30,10 @@ function Contact() {
               {translations.cpara}
             </p>
             <div className="flex flex-col text-[17px] gap-[20px] mb-[33px]">
-              <Link href="/">mariacico@gmail.com</Link>
-              <Link href="/">+30 69 3857 8519</Link>
+              <Link href="mailto:mariacico12@gmail.com">
+                mariacico12@gmail.com
+              </Link>
+              <Link href="tel:+30698578519">+30 69 3857 8519</Link>
               <Link href="/"> Greece </Link>
             </div>
             <div className="socialmedia flex text-[25px] gap-[25px]">
