@@ -17,7 +17,7 @@ function HeroSection() {
           width={70}
           height={80}
           alt="man"
-          className="fixed right-[10px] top-[50%] cursor-pointer"
+          className="fixed right-[10px] top-[50%] cursor-pointer z-[9999]"
         />
       </div>
       <div className="flex flex-col lg:flex-row w-[85%] lg:w-[67%] justify-between m-auto items-center gap-[65px]">
