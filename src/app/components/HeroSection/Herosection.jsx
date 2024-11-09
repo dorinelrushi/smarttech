@@ -14,7 +14,7 @@ function HeroSection() {
       <div>
         <Image
           src="/man.svg"
-          width={70}
+          width={90}
           height={80}
           alt="man"
           className="fixed right-[10px] top-[50%] cursor-pointer z-[9999]"
