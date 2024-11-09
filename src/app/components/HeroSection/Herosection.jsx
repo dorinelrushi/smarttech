@@ -11,6 +11,15 @@ function HeroSection() {
 
   return (
     <div>
+      <div>
+        <Image
+          src="/man.svg"
+          width={70}
+          height={80}
+          alt="man"
+          className="fixed right-[10px] top-[50%] cursor-pointer"
+        />
+      </div>
       <div className="flex flex-col lg:flex-row w-[85%] lg:w-[67%] justify-between m-auto items-center gap-[65px]">
         <div className="leftHeroSection">
           <h1 className=" text-[40px]  mt-[25px] lg:mt-[0px] lg:text-[70px]  text-[#3F4343] font-extrabold leading-[50px] lg:leading-[80px] mb-[40px]">
