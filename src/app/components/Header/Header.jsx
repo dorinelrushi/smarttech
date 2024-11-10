@@ -41,11 +41,11 @@ function Header() {
           : "relative bg-[#fbf8f3]"
       }  transition-shadow duration-300`}
     >
-      <div className="flex w-[90%] max-w-[1200px] justify-between py-4 m-auto items-center">
+      <div className="flex w-[65%]  justify-between py-4 m-auto items-center">
         <div className="LogoImage">
           <Image
             src="/Logo.png"
-            width={60}
+            width={64}
             height={60}
             alt="logo"
             className="w-[auto] h-[auto]"

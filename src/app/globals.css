@@ -81,6 +81,13 @@ ul li:hover {
   background-position: 50% 50%;
 }
 
+.bgkids {
+  width: 100%;
+  background: url("./../../public/chilld.jpg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
 @media only screen and (max-width: 1600px) {
   .socialsphone {
     width: 53%;

@@ -72,7 +72,7 @@ function Whatwedo() {
                 <h2 className="text-[28px] max-w-[1000px]  lg:max-w-[250px] leading-[35px] mb-[25px] ">
                   {translations.children}
                 </h2>
-                <Link href={"/"}>{translations.learn}</Link>
+                <Link href={"/Disabilities"}>{translations.learn}</Link>
               </div>
             </div>
           </div>

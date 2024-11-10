@@ -12,13 +12,15 @@ function HeroSection() {
   return (
     <div>
       <div>
-        <Image
-          src="/man.svg"
-          width={90}
-          height={80}
-          alt="man"
-          className="fixed right-[10px] top-[50%] cursor-pointer z-[9999]"
-        />
+        <Link href="/Disabilities">
+          <Image
+            src="/man.svg"
+            width={88}
+            height={80}
+            alt="man"
+            className="fixed right-[10px] bottom-[6%] cursor-pointer z-[9999]"
+          />
+        </Link>
       </div>
       <div className="flex flex-col lg:flex-row w-[85%] lg:w-[67%] justify-between m-auto items-center gap-[65px]">
         <div className="leftHeroSection">

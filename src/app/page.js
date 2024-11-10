@@ -5,22 +5,18 @@ import Herosection from "./components/HeroSection/Herosection";
 import Ourservice from "./components/Ourservice/Ourservice";
 import Project from "./components/Project/Project";
 import Whatwedo from "./components/whatwedo/Whatwedo";
-import { TranslationProvider } from "./translations/provider";
 
 export default function Home() {
   return (
-    <TranslationProvider>
+    <div>
       <div>
-        <div>
-          <Header />
-          <Herosection />
-          <Whatwedo />
-          <Ourservice />
-          <Project />
-          <Client />
-          <Contact />
-        </div>
+        <Herosection />
+        <Whatwedo />
+        <Ourservice />
+        <Project />
+        <Client />
+        <Contact />
       </div>
-    </TranslationProvider>
+    </div>
   );
 }
