@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { TranslationProvider } from "./translations/provider";
 import Header from "./components/Header/Header";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,6 +23,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script
+        src="https://cdn.userway.org/widget.js"
+        data-account="MeAnOvbu4M"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
